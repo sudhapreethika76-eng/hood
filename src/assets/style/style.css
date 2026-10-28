@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Outfit:wght@200;300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
+/* =========================================================
+   Smooth Scrolling — Lenis + GSAP Integration
+   - html: scroll-behavior is set to 'auto' so the browser's
+     native smooth-scroll does not fight with Lenis.
+   - Lenis itself provides the smooth momentum scrolling.
+   - The html element is still accessible via scroll-behavior
+     for any fallback, but Lenis takes full control at runtime.
+   ========================================================= */
+html {
+  scroll-behavior: auto; /* Let Lenis handle smooth scrolling — do not set 'smooth' here */
+}
+
+
 :root {
   --font-sans: 'Outfit', sans-serif;
   --font-heading: 'Space Grotesk', sans-serif;

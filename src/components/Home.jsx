@@ -230,7 +230,7 @@ function Home() {
             STAY PRESENT. Explore our latest drops, designed with clean silhouettes, premium heavy-weight fabrics, and an optimized fit for daily consciousness.
           </p>
           <div className="hero-btns">
-            <button className="btn-primary" onClick={() => document.getElementById('shop').scrollIntoView({ behavior: 'smooth' })}>
+            <button className="btn-primary" onClick={() => document.getElementById('shop').scrollIntoView({ behavior: 'instant' })}>
               Shop Collection
             </button>
             <button className="btn-outline">Watch Film</button>
