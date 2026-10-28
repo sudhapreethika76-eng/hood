@@ -46,3 +46,4 @@ function useSmoothScroll() {
 }
 
 export default useSmoothScroll;
+
